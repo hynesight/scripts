@@ -24,7 +24,7 @@ $vnetName="vnet2"
 
 $subnetIndex=0
 
-$vnet=Get-AzureRMVirtualNetwork -Name vnet -ResourceGroupName $vnetrgName
+$vnet=Get-AzureRMVirtualNetwork -Name $vnetName -ResourceGroupName $vnetrgName
 
 # Create the NIC.
 
